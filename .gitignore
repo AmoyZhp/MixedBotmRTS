@@ -1,0 +1,7 @@
+.idea
+build
+dist
+out
+*.mf
+build.xml
+Mixstrategy.iml
