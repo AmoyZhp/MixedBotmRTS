@@ -448,6 +448,9 @@ public class BehaviorRush {
 	}
 	public boolean validationMove(Unit unit, Unit target)
 	{
+		if(target == null){
+			return false;
+		}
 		UnitAction move = bec.getPathFinding().findPathToPositionInRange(unit, target.getX()+target.getY()*gs.getPhysicalGameState().getWidth(), unit.getAttackRange(), gs, null);
 		if (move!=null && gs.isUnitActionAllowed(unit, move)) return true;
 		return false;

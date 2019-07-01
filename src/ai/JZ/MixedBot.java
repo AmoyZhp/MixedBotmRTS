@@ -1,5 +1,5 @@
 
-package ai.competition.JZ;
+package ai.JZ;
 
 import Standard.ImprovedStrategyTactics;
 import ai.abstraction.AbstractionLayerAI;
